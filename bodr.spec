@@ -1,6 +1,6 @@
 Name:           bodr
-Version:        5
-Release:        %mkrel 2
+Version:        6
+Release:        %mkrel 1
 Summary:        This is the Blue Obelisk Data Repository
 
 Group:          System/Libraries
@@ -59,7 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog COPYING NEWS README THANKS TODO
 %{_datadir}/%{name}/*.xml
 %{_datadir}/%{name}/dicts/*.xml
-%{_datadir}/doc/%{name}/*
 %{_datadir}/pkgconfig/%{name}.pc
 
 
