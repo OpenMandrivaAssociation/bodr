@@ -7,7 +7,6 @@ Group:          System/Libraries
 License:        MIT
 URL:            http://almost.cubic.uni-koeln.de/cdk
 Source0:        %{name}-%{version}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:  libxml2-devel
 BuildRequires:  libxslt-proc
 BuildRequires:  pkgconfig
