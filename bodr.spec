@@ -1,7 +1,7 @@
 Name:           bodr
 Version:        6
 Release:        %mkrel 1
-Summary:        This is the Blue Obelisk Data Repository
+Summary:        The Blue Obelisk Data Repository
 
 Group:          System/Libraries
 License:        MIT
