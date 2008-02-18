@@ -1,6 +1,6 @@
 Name:           bodr
 Version:        6
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        The Blue Obelisk Data Repository
 
 Group:          System/Libraries
