@@ -5,7 +5,7 @@ Summary:        The Blue Obelisk Data Repository
 
 Group:          System/Libraries
 License:        MIT
-URL:            http://almost.cubic.uni-koeln.de/cdk
+URL:            http://blueobelisk.sourceforge.net/wiki/index.php/DataRepository
 Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:  libxml2-devel
