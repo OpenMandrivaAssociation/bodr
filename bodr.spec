@@ -1,6 +1,6 @@
 Name:           bodr
-Version:        8
-Release:        %mkrel 2
+Version:        9
+Release:        %mkrel 1
 Summary:        The Blue Obelisk Data Repository
 
 Group:          System/Libraries
@@ -43,15 +43,15 @@ Currently this encompasses:
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
 %files
