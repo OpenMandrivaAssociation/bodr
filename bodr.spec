@@ -64,3 +64,45 @@ rm -rf %{buildroot}
 
 
 
+
+
+%changelog
+* Fri Aug 13 2010 Emmanuel Andry <eandry@mandriva.org> 9-1mdv2011.0
++ Revision: 569387
+- New version 9
+- use configure2_5x
+
+* Thu Sep 10 2009 Thierry Vignaud <tv@mandriva.org> 8-2mdv2010.0
++ Revision: 436865
+- rebuild
+
+* Tue Feb 24 2009 Emmanuel Andry <eandry@mandriva.org> 8-1mdv2009.1
++ Revision: 344558
+- fix URL
+
+* Sun Jun 29 2008 Emmanuel Andry <eandry@mandriva.org> 8-1mdv2009.0
++ Revision: 230033
+- New version
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 6-2mdv2008.1
++ Revision: 170778
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Sun Jun 17 2007 Emmanuel Andry <eandry@mandriva.org> 6-1mdv2008.0
++ Revision: 40533
+- New version 6
+
+
+* Mon Mar 05 2007 Nicolas Lécureuil <neoclust@mandriva.org> 5-2mdv2007.0
++ Revision: 132765
+- Fix group
+
+* Sun Feb 25 2007 Emmanuel Andry <eandry@mandriva.org> 5-1mdv2007.1
++ Revision: 125499
+- Import bodr
+
