@@ -1,7 +1,7 @@
 Summary:	The Blue Obelisk Data Repository
 Name:		bodr
 Version:	10
-Release:	1
+Release:	2
 License:	MIT
 Group:		System/Libraries
 Url:		http://blueobelisk.sourceforge.net/
