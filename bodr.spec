@@ -1,11 +1,12 @@
 Summary:	The Blue Obelisk Data Repository
 Name:		bodr
 Version:	10
-Release:	2
+Release:	%mkrel 2
 License:	MIT
 Group:		System/Libraries
 Url:		http://blueobelisk.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/bodr/%{name}-%{version}.tar.bz2
+Source100:	%{name}.rpmlintrc
 BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	libxslt-proc
 BuildArch:	noarch
@@ -38,6 +39,7 @@ Currently this encompasses:
 
 %prep
 %setup -q
+chmod -x README
 
 %build
 %configure2_5x
