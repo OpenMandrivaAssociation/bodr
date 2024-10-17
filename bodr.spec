@@ -4,7 +4,7 @@ Version:	10
 Release:	%mkrel 2
 License:	MIT
 Group:		System/Libraries
-Url:		http://blueobelisk.sourceforge.net/
+Url:		https://blueobelisk.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/bodr/%{name}-%{version}.tar.bz2
 Source100:	%{name}.rpmlintrc
 BuildRequires:	pkgconfig(libxml-2.0)
