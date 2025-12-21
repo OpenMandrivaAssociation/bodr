@@ -7,6 +7,11 @@ Group:		System/Libraries
 Url:		https://blueobelisk.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/bodr/%{name}-%{version}.tar.bz2
 Source100:	%{name}.rpmlintrc
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	libxslt-proc
 BuildArch:	noarch
